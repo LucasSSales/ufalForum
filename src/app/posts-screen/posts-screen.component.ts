@@ -30,8 +30,11 @@ export class PostsScreenComponent implements OnInit {
   }
 
   post(){
-    var newPost = {text: this.postagem, classroom: this.data.uniqueCode}
-    console.log(newPost)
+    var file = []
+    if(this.files){
+      file = [{filename:this.files[0].name, binary:this.filestring}]
+    }
+    var newPost = {text: this.postagem, classroom: this.data.uniqueCode, files: file}
     this.api.createPost(newPost).subscribe(
       (data)=>{
         //data.Owner = new Owner()
