@@ -1,0 +1,28 @@
+.inputs {
+    min-width: 150px;
+    max-width: 500px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .fullWidth {
+    width: 100%;
+    padding: 5px;
+  }
+
+.container{
+    padding: 15px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.card{
+  width: 40%; 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cadastro{
+  padding-bottom: 10px;
+  font-size: 13px;
+}

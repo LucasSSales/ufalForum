@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Criar Turma</h1>
+<div mat-dialog-content>
+    <mat-form-field>
+      <mat-label>Insira o Nome da Comunidade</mat-label>
+      <input matInput [(ngModel)]="data.nome">
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="data.nome">Ok</button>
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+</div>

@@ -1,0 +1,47 @@
+.card{
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 15px;    
+}
+
+.cards{
+    padding: 10px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.loading{
+    margin: 0 auto;
+}
+
+.top{
+    padding-top: 100px;
+}
+
+.btns{
+    margin: 0 auto;
+    justify-content: center;
+    width: 40%;
+}
+
+.btn{
+    margin:10px;
+}
+
+.right{
+    right: 0px;
+}
+
+.text{
+    text-align: center;
+    margin: 40px;
+}
+
+.classes{
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    width: 70%
+}

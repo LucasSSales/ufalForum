@@ -1,0 +1,24 @@
+.container{
+    width: 50%;
+    margin-top: 5%;
+}
+
+.cards{
+    padding: 10px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.loading{
+    margin: 0 auto;
+}
+
+.top{
+    padding-top: 100px;
+}
+
+.input{
+    margin: 10px;
+}
